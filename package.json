@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-bot-24-7",
+  "version": "1.0.0",
+  "description": "24/7 Minecraft bot for Aternos server",
+  "main": "bot-with-keepalive.js",
+  "scripts": {
+    "start": "node bot-with-keepalive.js",
+    "bot": "node bot.js",
+    "keep-alive": "node keep-alive.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.17.0",
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "24/7",
+    "aternos"
+  ],
+  "author": "",
+  "license": "MIT"
+}
